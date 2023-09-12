@@ -1,0 +1,32 @@
+.imageControl {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.profileIMG{
+  transition: transform .2s;
+}
+
+
+.profileIMG:hover{
+  transform: scale(1.1);
+}
+
+.servicesIMG{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceContainer{
+  border: 1px solid #000;
+  border-radius: 10px;
+
+}
+
