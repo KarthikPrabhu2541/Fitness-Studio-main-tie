@@ -1,59 +1,43 @@
-
 import React from "react";
 import "./enrollNow.css";
 import { useNavigate } from "react-router-dom";
-
+import loginimage from "../../assets/fitimage.jpg"
 const EnrollNow = () => {
     const navigate = useNavigate();
 
     return (
-        <section>
-            <div className='dark:bg-violet-400 mainDiv '>
-                <div className='container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900'>
-                    <h1 className='text-5xl font-bold sm:text-6xl xl:max-w-3xl dark:text-red-900'>
-
-                        यम, नियम, आसन, प्राणायाम, प्रत्याहार, धारणा, ध्यान,
-                        समाधय: अष्टौ अङ्गानि।{" "}
-
-                    </h1>
-                    <p className='mt-6 mb-4 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900'>
-                        Principles, Personal Disciplines, Postures, Control over
-                        life forces, Withdrawal of Senses, Focused
-                        Concentration, Meditative Absorption, and Enlightenment
-                        are the 8 limbs of Yoga.
-                    </p>
-                    <p className='mt-0 mb-4 text-lg xl:max-w-3xl dark:text-gray-900'>
-
-                        सिद्धांत, व्यक्तिगत अनुशासन, मुद्राएं, जीवन शक्तियों पर
-                        नियंत्रण, संवेदना, ध्यान केंद्रित एकाग्रता, ध्यान, और
-                        प्रबोधन योग के आठ अंग हैं।
-
-                    </p>
-
-                    <div className='flex flex-wrap justify-center'>
-                        <button
+        <div className='flex flex-col md:flex-row h-screen'>
+        <div className='bg-blue-500 md:w-1/2 flex justify-center items-center'>
+            <img
+                className='w-1/2 md:w-2/3 lg:w-1/2 xl:w-1/3 imagePhoto'
+                src={loginimage}
+                alt='Side pic'
+            />
+        </div>
+        <div className='bg-white md:w-1/2 flex justify-center items-center' id='bgphoto'>
+            <div className='w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2' >
+            <div className='flex flex-wrap justify-center'>
+            <button id="btnopaque"
                             type='button'
                             onClick={() => navigate("/register")}
                             className='px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900 hover:bg-sky-700 enrollnowBTN'>
                             Register
                         </button>
-                        <button
+                        </div>
+                        <div className='flex flex-wrap justify-center'>
+                        <button id="btnopaque"
                             type='button'
                             onClick={() => navigate("/login")}
                             className='px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900 hover:bg-green-700 enrollnowBTN'>
                             Login
                         </button>
-                    </div>
-                </div>
+</div>
+                
+               
             </div>
-            <img
-                src='https://cdn.shopify.com/s/files/1/0592/6141/9682/files/20.06.2021_web.jpg?v=1632129564'
-                alt=''
-                className='w-5/6 mx-auto mb-10 -mt-20 rounded-lg shadow-md lg:-mt-60 dark:bg-red-500'
-            />
-        </section>
+        </div>
+    </div>
     );
 };
 
 export default EnrollNow;
-

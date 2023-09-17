@@ -91,7 +91,7 @@
 #home_second_container {
 	padding: 2rem 3rem;
 	color: rgb(26, 24, 24);
-	background: linear-gradient(rgba(252, 248, 248, 0.523), rgb(171, 171, 189));
+	background-color: linear-gradient(rgba(252, 248, 248, 0.523), rgb(171, 171, 189));
 }
 
 #home_second_container h1 {
@@ -108,10 +108,10 @@
 	overflow: hidden;
 	padding: 30px;
 	position: relative;
-	transition: transform 3s;
+	transition: transform 0.5s;
 }
 #home_second_container .carousel-card:hover {
-	transform: scale(1.07);
+	transform: scale(1.03);
 }
 .carousel-card img {
 	width: 95%;
@@ -157,7 +157,7 @@
 	background-color:black;
 }
 #home_third_container h1 {
-	color: white;
+	color: orange;
 	font-size: 3rem;
 	text-align: center;
 	text-shadow: 2px 2px 5px black;
@@ -289,6 +289,8 @@
 
 #home_fifth_container {
 	padding: 10px;
+	padding-bottom:40px;
+	margin-bottom:-20px;
 	color: rgb(26, 24, 24);
 	background-color: black;
 }

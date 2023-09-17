@@ -68,19 +68,19 @@ const SecondContainer = () => {
 					<div className="hide">
  						<h3>Yoga</h3>
  						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-							quis pariatur distinctio vel nobis del. <button onClick={handleClick}>Know More...</button>
+						 Yoga is a meditative process of self-discovery and liberation.
 						</p>
+						<button onClick={handleClick}>Know More...</button>
 					</div>
 				</div>
 				<div className="carousel-card">
 					<img src={pilates} alt="pilate-img" />
 					<div className="hide">
-						<h3>Pilates</h3>
+						<h3>Gym</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-						quis pariatur distinctio vel nobis del. <button onClick={handleClick}>Know More...</button>
+						A place or club where you can go to exercise using machines, weights, and other equipment.
 						</p>
+						<button onClick={handleClick}>Know More...</button>
 					</div>
 </div>
 				<div className="carousel-card">
@@ -88,9 +88,9 @@ const SecondContainer = () => {
 					<div className="hide">
 						<h3>Zumba</h3>
 						<p>
- 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-							quis pariatur distinctio vel nobis del. <button onClick={handleClick}>Know More...</button>
+						Zumba is a fun, high-energy workout experience that keeps you excited to exercise.
  						</p>
+						 <button onClick={handleClick}>Know More...</button>
  					</div>
 				</div>
 				<div className="carousel-card">
@@ -98,9 +98,9 @@ const SecondContainer = () => {
  					<div className="hide">
  						<h3>Meditation</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-						quis pariatur distinctio vel nobis del. <button onClick={handleClick}>Know More...</button>					
-						</p>					
+						Meditation is a practice that involves focusing or clearing your mind using a combination of mental and physical techniques. 
+						</p>			
+						<button onClick={handleClick}>Know More...</button>							
 						</div>
 			</div>
 			<div className="carousel-card">
@@ -108,9 +108,10 @@ const SecondContainer = () => {
 				<div className="hide">
 						<h3>Nutrition</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-						quis pariatur distinctio vel nobis del. <button onClick={handleClick}>Know More...</button>
+						Nutrition is the process of providing or obtaining the food necessary for health and growth. 
+						
 </p>
+<button onClick={handleClick}>Know More...</button>
 				</div>
 			</div>
 			</Slider>

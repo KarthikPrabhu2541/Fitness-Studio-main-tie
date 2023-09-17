@@ -27,12 +27,7 @@ const FirstContainer = () => {
 				Your browser does not support the video tag.
 			</video>
 			<div className="contents">
-				<p>Pushing Boundaries, Breaking Limits.</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-					molestiae atque voluptatem impedit exercitationem nisi cupiditate
-				</p>
-				
+				<p>Pushing Boundaries, Breaking Limits.</p>				
 			</div>
 		</section>
 	);

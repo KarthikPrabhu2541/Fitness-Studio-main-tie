@@ -3,7 +3,6 @@ import "./home.css";
 import FirstContainer from "./containers/FirstContainer";
 import SecondContainer from "./containers/SecondContainer";
 import ThirdContainer from "./containers/ThirdContainer";
-import FourthContainer from "./containers/FourthContainer";
 import FifthContainer from "./containers/FifthContainer";
 
 const Home = () => {
@@ -12,7 +11,6 @@ const Home = () => {
 			<FirstContainer />
 			<SecondContainer />
 			<ThirdContainer />
-			<FourthContainer />
 			<FifthContainer />
 		</div>
 	);
