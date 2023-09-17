@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/OIP2.png";
+import logo from "../../assets/gym.png";
 import "./Header.css";
 
 const Header = () => {
@@ -40,7 +40,7 @@ const Header = () => {
         <NavLink to="/contact" onClick={closeNav}>
           Contact
         </NavLink>
-        <NavLink className="enrollNowBTN" to="/enroll" onClick={closeNav}>
+        <NavLink id="enrol" className="enrollNowBTN" to="/enroll" onClick={closeNav}>
           Enroll Now
         </NavLink>
         <button className="nav-btn nav-close-btn" onClick={closeNav}>

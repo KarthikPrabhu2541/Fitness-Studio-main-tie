@@ -4,84 +4,80 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	
+}
+#enrol{
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	transition: transform 0.3s;
+	text-align: right;
+	background-color: #373535;
+}
+
+#enrol:hover{
+	transform: scale(1.1);
+	color: white;
+	background-color: green;
+	border:none;
+	border-radius: 5px;
+}
+
+.enrollNowBTN:hover {
+	transform: scale(1.1);
+	color: white;
+	background-color: green;
+	border:none;
+	border-radius: 5px;
 }
 
 :root {
-	--mainColor: #626280;
+	--mainColor: #567add;
 	--mainColorLight: #5767aa;
-	--secondaryColor: rgb(75, 73, 73);
-	--textColor: #1e1c1c;
+	--secondaryColor: rgb(227, 93, 93);
+	--textColor: #060606;
 }
 
 header {
+	background-color: rgb(33, 33, 33)	;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 2rem;
-	background: linear-gradient(rgba(252, 248, 248, 0.523), rgb(171, 171, 189));
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 header img {
-	height: 180px;
-	width: 150px;
+	height: 60px;
+	width: 60px;
 	border-radius: 10px;
 	
 }
 
 nav a {
 	margin: 0 1.5rem;
-	color: black;
+	color: #ddd4d4;
 	text-decoration: none;
 	font-weight: 500;
 	padding: 10px;
-	transition: transform 2s;
+	transition: transform 1s;
 }
 
 nav a:hover,
 nav a.active {
-	background-color: rgb(171, 171, 189);
+	background:linear-gradient(to right,rgb(255, 217, 0),orange,rgb(255, 111, 0));
 	transform: translateY(-5px);
-	border-radius: 5px;
+	border-radius: 10px;
 	color: black;
-}
-.dropdown {
-	position: relative;
-	display: inline-block;
-	z-index: 1;
-}
-
-.dropdown-content {
-	position: absolute;
-	top: 90%;
-	left: 0;
-	border-radius: 4px;
-	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-	display: none;
-	background: linear-gradient(rgba(252, 248, 248, 0.523), rgb(171, 171, 189));
-}
-
-.dropdown.active .dropdown-content {
-	display: block;
-}
-
-.dropdown-content a {
-	display: block;
-	padding: 10px;
-	margin-top: 10px;
-	text-align: center;
-	text-decoration: none;
-	transition: background-color 0.3s;
-}
-
-.dropdown-content a:hover,
-.dropdown-content a:active {
-	background-color: rgb(75, 73, 73);
-	color: white;
 }
 
 header .nav-btn {
 	display: none;
+	position:relative;
+	top:-10px;
 }
 .social-links {
 	display: flex;
@@ -98,17 +94,6 @@ header .nav-btn {
 		visibility: visible;
 		opacity: 1;
 		display: block;
-
-		/* padding: 5px;
-		cursor: pointer;
-		background: transparent;
-		border: none;
-		display: block;
-		outline: none;
-		color: var(--textColor);
-		visibility: visible;
-		opacity: 1;
-		font-size: 1.8rem; */
 	}
 
 	nav a {
@@ -193,13 +178,7 @@ header .nav-btn {
 	}
 }
 
-/* NavBar Centered CSS */
-
-
-
-/* Enroll Now BTN CSS */
 .enrollNowBTN {
-	background-color: #f97316;
 	color: white;
 	border: none;
 	padding: 10px 20px;
@@ -208,12 +187,8 @@ header .nav-btn {
 	font-weight: 500;
 	transition: transform 0.3s;
 	text-align: right;
+	background-color: #373535;
 }
 
-.enrollNowBTN:hover {
-	transform: scale(1.1);
-	color: green;
-	background-color: white;
-	border: 1px solid green;
-}
+
 

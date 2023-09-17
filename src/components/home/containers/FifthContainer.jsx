@@ -7,7 +7,7 @@ import "../home.css";
 const FifthContainer = () => {
 	return (
 		<section id="home_fifth_container">
-			<h1>Clients Gallery</h1>
+			<h1>Trainers</h1>
 			<div className="gallery">
 				{gallery.map((image) => (
 					<img

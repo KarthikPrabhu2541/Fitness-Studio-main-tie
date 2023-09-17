@@ -32,9 +32,7 @@ const FirstContainer = () => {
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
 					molestiae atque voluptatem impedit exercitationem nisi cupiditate
 				</p>
-				<button>
-					<Link to="/about">Why Us?</Link>
-				</button>
+				
 			</div>
 		</section>
 	);

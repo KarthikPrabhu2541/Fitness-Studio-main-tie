@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../assets/OIP2.png";
+import logo from "../../assets/gym.png";
 import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
 				</div>
 
 				<div className="quicklinks">
-					<h2>Quick Links</h2>
+					<h2><b>Quick Links</b></h2>
 					<ul>
 						<li>
 							<a href="#">About</a>
@@ -80,7 +80,7 @@ const Footer = () => {
 					<h1>Location</h1>
 					<p>
 						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.464946629981!2d77.36091877386757!3d28.40522429436961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdcd791431a7f%3A0xe5d6020d9cf2e006!2sPuri%20Pratham%20Society!5e0!3m2!1sen!2sin!4v1692696785387!5m2!1sen!2sin"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.459932041766!2d77.56480187507928!3d13.133362987197104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae18a5c54ece35%3A0x49c4c47a68a60b9c!2sBMS%20Institute%20of%20Technology%20and%20Management!5e0!3m2!1sen!2sin!4v1694949496261!5m2!1sen!2sin"
 							width="300"
 							height="150"
 							// style="border:0;"
@@ -88,7 +88,7 @@ const Footer = () => {
 							loading="lazy"
 							referrerpolicy="no-referrer-when-downgrade"
 						></iframe>
-					</p>
+						</p>
 				</div>
 			</div>
 			<div style={{ textAlign: "center" }}>
