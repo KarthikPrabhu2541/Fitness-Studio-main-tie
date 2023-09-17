@@ -3,7 +3,9 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    padding:10px 20px;
     transition: all 0.3s ease-in-out;
+    background-color: black;
 }
 
 .imgLogo{
@@ -16,5 +18,14 @@
     transition: all 0.3s ease-in-out;
 }
 
+#bgphoto{
+    background-image: url("../../../assets/bck.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#coloring{
+    color:orangered;
+    background-color: white;
+}
 /* Loading css Part */
-

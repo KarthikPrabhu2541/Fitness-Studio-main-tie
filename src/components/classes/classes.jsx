@@ -284,7 +284,7 @@ const Classes = () => {
                 <li>Access Clup Facilites</li>
                 <li>Out Door activites</li>
               </ul>
-              <a href="#">get started</a>
+              <a href="#" id="get-started">get started</a>
             </div>
           </div>
         </div>
@@ -303,7 +303,7 @@ const Classes = () => {
                 <li>Access Clup Facilites</li>
                 <li>Out Door activites</li>
               </ul>
-              <a href="#">get started</a>
+              <a href="#" id="get-started">get started</a>
             </div>
           </div>
         </div>
@@ -322,7 +322,7 @@ const Classes = () => {
                 <li>Access Clup Facilites</li>
                 <li>Out Door activites</li>
               </ul>
-              <a href="#">get started</a>
+              <a href="#" id="get-started">get started</a>
             </div>
           </div>
         </div>

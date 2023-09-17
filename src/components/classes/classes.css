@@ -1,16 +1,20 @@
+#get-started:hover{
+  box-shadow:5px 5px 10px rgba(245, 136, 11, 0.907),10px 10px 10px rgba(245, 136, 11, 0.907);
+}
+
 .single-table text-center{
     width:100%;
   }
 
   .view-all-classes-button{
     border-radius: 25px;
-    border:2px solid #5fc7ae;
-    background-color:#5fc7ae;
+    border:2px solid rgba(245, 136, 11, 0.907);
+    background-color:rgba(245, 136, 11, 0.907);
   }
 
   .view-all-classes-button:hover{
-    color:#5fc7ae;
-    border:2px solid #5fc7ae;
+    color:rgba(245, 136, 11, 0.907);
+    border:2px solid rgba(245, 136, 11, 0.907);
     background-color: white;
   }
 /*----------------------------------------*/
@@ -30,7 +34,7 @@
     content: "";
     opacity: 0;
     transform: scaleY(0);
-    background: rgba(95, 199, 174, 0.7);
+    background: rgba(218, 131, 32, 0.594);
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -78,7 +82,7 @@
     transition: all 0.5s ease 0s;
 }
 .single-img i:hover{
-    color: #91C7AE;
+    color: rgba(245, 136, 11, 0.907);
     background: #fff;
     transform: scale(1);
 }
@@ -100,7 +104,7 @@
     transition: all 0.5s ease 0s;
 }
 .single-content h3:hover a{
-    color: #5FC7AE;
+    color: rgba(245, 136, 11, 0.907);
 }
 .single-content ul{
     margin: 0;
@@ -117,7 +121,7 @@
     margin-right: 0px;
 }
 .single-content ul li i{
-    color: #5fc7ae;
+    color: rgba(245, 136, 11, 0.907);
     font-size: 18px;
     margin-right: 10px;
     position: relative;
@@ -257,7 +261,7 @@ td.pink{background: #FF91B8}
     background: #fff;
 }
 .trainer-hover ul li:hover a{
-    color: #5FC7AE
+    color: rgba(245, 136, 11, 0.907)
 }
 /*----------------------------------------*/
 /*  5. Gallery Area
@@ -298,7 +302,7 @@ td.pink{background: #FF91B8}
   z-index: 99999;
 }
 .load a{
-    background: #008C99;
+    background:rgba(245, 136, 11, 0.907);
     color: #fff;
     text-transform: uppercase;
     padding: 5px 25px 4px;
@@ -311,7 +315,7 @@ td.pink{background: #FF91B8}
     transition: all 0.5s ease 0s;
 }
 .load a:hover{
-    color: #008C99;
+    color: rgba(245, 136, 11, 0.907);
 }
 /*----------------------------------------*/
 /*  6. Event Area
@@ -355,7 +359,7 @@ td.pink{background: #FF91B8}
 }
 .event-content h4{
     font-family: 'Montserrat', sans-serif;
-    color: #5fc7ae;
+    color: rgba(245, 136, 11, 0.907);
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 10px;
@@ -407,7 +411,7 @@ td.pink{background: #FF91B8}
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
-.blog-content a:hover{color: #5FC7AE}
+.blog-content a:hover{color: rgba(245, 136, 11, 0.907)}
 /*----------------------------------------*/
 /*  8. Pricing Area
 /*----------------------------------------*/
@@ -415,19 +419,19 @@ td.pink{background: #FF91B8}
     box-shadow: 0 0 4px 4px #E2E2E2;
 }
 .single-table:hover .table-head h2, .single-table:hover .table-body, .single-table:hover .table-body a{
-    background: #5FC7AE;
+    background: rgba(245, 136, 11, 0.907);
 }
 .single-table:hover .table-head h2, .single-table:hover .table-body ul li, .single-table:hover .table-body a{
     color: #fff;
 }
 .single-table:hover .table-body ul li{
-    border-bottom: 1px solid #5DC0A8;
+    border-bottom: 1px solid rgba(245, 136, 11, 0.907);
 }
 .single-table:hover .table-body ul li:last-child{
     border-bottom: none;
 }
 .single-table:hover .table-body a{
-    box-shadow: 0 0 4px 4px #59BBA3;
+    box-shadow: 0 0 4px 4px rgba(245, 136, 11, 0.907);
 }
 .table-head h2{
     font-size: 20px;
@@ -482,7 +486,7 @@ td.pink{background: #FF91B8}
     background: #f1f1f1 none repeat scroll 0 0;
     border-radius: 25px;
     box-shadow: 0 0 4px 4px #e2e2e2;
-    color: #5fc7ae;
+    color: rgba(245, 136, 11, 0.907);
     display: inline-block;
     font-family: "Montserrat",sans-serif;
     font-size: 14px;
@@ -615,7 +619,7 @@ textarea {
     color: #ffffff;
 }
 #scrollUp {
-    background: #5FC7AE none repeat scroll 0 0;
+    background: rgba(245, 136, 11, 0.907) none repeat scroll 0 0;
 }
 /*************************
     05. Basic margin padding
@@ -980,7 +984,7 @@ textarea {
     text-align: left;
 }
 .breadcrumb-text h3 {
-    color: #5FC7AE;
+    color: rgba(245, 136, 11, 0.907);
     font-family: 'Playfair Display', serif;
     line-height: 26px;
     margin-bottom: 24px;
@@ -1106,7 +1110,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
 }
 .twitt-content p{margin-bottom: 0px}
 .twitt-content a {
-    color: #5fc7ae;
+    color: rgba(245, 136, 11, 0.907);
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 15px;
@@ -1139,24 +1143,24 @@ NOTE: This is Footer style file. All footer related style included in this file.
   height: 90px;
 }
 .single-footer-widget button, .contact-form button{
-    background: #5FC7AE none repeat scroll 0 0;
+    background: rgba(245, 136, 11, 0.907) none repeat scroll 0 0;
     color: #fff;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     padding: 10px 70px;
-    border: 1px solid #5FC7AE;
+    border: 1px solid rgba(245, 136, 11, 0.907);
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
 .single-footer-widget button:hover, .contact-form button:hover{
-    color: #5FC7AE;
+    color: rgba(245, 136, 11, 0.907);
     background: transparent;
 }
 .single-footer-widget input:focus{
-    border: 1px solid #5FC7AE;
+    border: 1px solid rgba(245, 136, 11, 0.907);
 }
 .mailchimp-alerts {color: #ffffff; padding-top: 15px;}
 .footer-text > span {
@@ -1176,7 +1180,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
 }
 .footer-text a:hover {border-bottom: 1px solid #fff}
 .footer-text-area {
-  background: #5FC7AE none repeat scroll 0 0;
+  background: rgba(245, 136, 11, 0.907) none repeat scroll 0 0;
 }
 
 .logo a {
@@ -1195,7 +1199,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
-    border: 1px solid #5fc7ae;
+    border: 1px solid rgba(245, 136, 11, 0.907);
     border-radius: 25px;
     color: #666666;
     margin-top: 13px;
@@ -1214,7 +1218,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
     transition: all 0.4s ease 0s;
   }
   .main-menu > nav > ul > li:hover > a {
-    color: #5fc7ae;
+    color: rgba(245, 136, 11, 0.907);
   }
   .main-menu ul li ul {
     background: #ffffff none repeat scroll 0 0;
@@ -1285,8 +1289,8 @@ NOTE: This is Footer style file. All footer related style included in this file.
     padding: 0;
   }
   .mean-container a.meanmenu-reveal {
-    border: 1px solid #5fc7ae;
-    color: #5fc7ae;
+    border: 1px solid rgba(245, 136, 11, 0.907);
+    color: rgba(245, 136, 11, 0.907);
     margin-top: -50px;
     padding: 4px 5px;
     position: absolute;
@@ -1295,7 +1299,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
     margin-top: -59px;
   }
   .mean-container a.meanmenu-reveal span {
-    background-color: #5fc7ae;
+    background-color: rgba(245, 136, 11, 0.907);
   }
   .mean-container .mean-nav {
     margin-top: 0;
@@ -1531,7 +1535,7 @@ a.meanmenu-reveal {
     text-transform: uppercase;
     width: 90%;
 }
-.mean-container .mean-nav ul li a:hover {color: #5FC7AE}
+.mean-container .mean-nav ul li a:hover {color: rgba(245, 136, 11, 0.907)}
 .mean-container .mean-nav ul li li a {
 	width: 80%;
 	padding: 1em 10%;

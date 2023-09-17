@@ -17,7 +17,7 @@ const EnrollNow = () => {
         <div className='bg-white md:w-1/2 flex justify-center items-center' id='bgphoto'>
             <div className='w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2' >
             <div className='flex flex-wrap justify-center'>
-            <button id="btnopaque"
+            <button
                             type='button'
                             onClick={() => navigate("/register")}
                             className='px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900 hover:bg-sky-700 enrollnowBTN'>
@@ -25,7 +25,7 @@ const EnrollNow = () => {
                         </button>
                         </div>
                         <div className='flex flex-wrap justify-center'>
-                        <button id="btnopaque"
+                        <button
                             type='button'
                             onClick={() => navigate("/login")}
                             className='px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900 hover:bg-green-700 enrollnowBTN'>

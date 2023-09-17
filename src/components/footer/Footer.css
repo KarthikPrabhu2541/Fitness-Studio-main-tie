@@ -41,7 +41,7 @@ footer {
 
 .footer_container .about .social a {
 	color: #ffffff;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	transition: transform 0.3s ease, color 0.3s ease;
 	position: relative;
 }
@@ -60,7 +60,7 @@ footer {
 
 .footer_container .about .social a:hover {
 	transform: translateY(-3px);
-	color: black;
+	color: rgb(230, 130, 8);
 }
 
 .footer_container .about .social a:hover:before {
@@ -81,9 +81,7 @@ footer {
 
 .quicklinks ul li:hover,
 .contact ul li:hover {
-	color: #333333;
-	font-weight: 600;
-	transform: translateX(5px);
+	transform: translateX(10px);
 }
 .footer_container > div {
 	width: calc(25% - 1rem);
@@ -130,7 +128,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
 	footer {
-		color: aliceblue;
+		color: goldenrod;
 		padding: 20px 10px 10vh 10px;
 	}
 	.footer_container {
@@ -149,7 +147,7 @@ footer {
 }
 @media only screen and (max-width: 480px) {
 	footer {
-		color: aliceblue;
+		color: goldenrod;
 		padding: 20px 10px 20vh 10px;
 	}
 	.footer_container {

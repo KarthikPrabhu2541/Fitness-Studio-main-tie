@@ -48,32 +48,20 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div className="contact">
-					<h2>Contact Us</h2>
+					<h2><b>Contact Us</b></h2>
 					<ul className="info">
 						<li>
 							<span></span>
 							<span>
-								647 Linda Street
+								BMS Institute of Technology and Management
 								<br />
-								Phoenixvilla, 121002,
+								Avalahalli , Bengaluru Rural
 								<br />
-								India
+								Karnataka , India
 							</span>
 						</li>
-						<li>
-							<span></span>
-							<span>
-								<a href="tel:+91 1234567890">+91 9756734525</a>
-								<br />
-								<a href="tel:+91 7894321345">+91 9738621562</a>
-							</span>
-						</li>
-						<li>
-							<span></span>
-							<span>
-								<a href="mailto:Knowmore@gmail.com">Knowmore@gmail.com</a>
-							</span>
-						</li>
+						
+						
 					</ul>
 				</div>
 				<div className="map">
@@ -92,7 +80,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div style={{ textAlign: "center" }}>
-				<p>Copyright ©️ Abhilasha Tiwari. All Right Reserved@2023</p>
+				<p>Copyright ©️ BMSIT Quick-Learners. All Right Reserved @ 2023</p>
 			</div>
 		</footer>
 	);

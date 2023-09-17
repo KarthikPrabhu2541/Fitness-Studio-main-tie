@@ -47,7 +47,7 @@ const Header = () => {
           <FaTimes />
         </button>
       </nav>
-      <button className="nav-btn" onClick={showNavbar}>
+      <button className="nav-btn" onClick={showNavbar} id="nav-bar-media">
         <FaBars />
       </button>
     </header>

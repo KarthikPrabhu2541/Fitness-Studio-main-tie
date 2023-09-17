@@ -15,7 +15,7 @@
 	font-weight: 500;
 	transition: transform 0.3s;
 	text-align: right;
-	background-color: #373535;
+	background-color: #1a1919;
 }
 
 #enrol:hover{
@@ -42,7 +42,7 @@
 }
 
 header {
-	background-color: rgb(33, 33, 33)	;
+	background-color: rgb(20, 20, 20)	;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -112,7 +112,7 @@ header .nav-btn {
 		justify-content: center;
 		gap: 1.5rem;
 		/* color: azure; */
-		background-color: var(--mainColor);
+		background-color: rgb(23, 22, 22);
 		transition: 1s;
 		transform: translateY(-100vh);
 	}
@@ -148,7 +148,7 @@ header .nav-btn {
 		height: 60vh;
 
 		width: 100%;
-		background-color: var(--mainColor);
+		background-color: rgb(18, 17, 17);
 		transition: 0.5s;
 		transform: translateX(-100%);
 	}
@@ -187,8 +187,16 @@ header .nav-btn {
 	font-weight: 500;
 	transition: transform 0.3s;
 	text-align: right;
-	background-color: #373535;
+	background-color: #837f7f;
+}
+ 
+#nav-bar-media{
+	
+	background-color: white;
+	color:black;
 }
 
-
+#nav-bar-media:hover{
+	background-color:rgb(218, 134, 32);
+}
 

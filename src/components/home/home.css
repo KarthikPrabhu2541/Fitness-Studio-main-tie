@@ -1,7 +1,10 @@
 .home-container {
 	padding-bottom: 20px;
 }
-
+#horizontal{
+	background-color:rgb(255, 187, 0);
+	height:3px;
+}
 .home_first_container {
 	position: relative;
 	height: 90vh;
@@ -91,12 +94,13 @@
 #home_second_container {
 	padding: 2rem 3rem;
 	color: rgb(26, 24, 24);
-	background-color: linear-gradient(rgba(252, 248, 248, 0.523), rgb(171, 171, 189));
+	background-color:black;
 }
 
 #home_second_container h1 {
-	color: black;
+	background:	linear-gradient(to right, rgb(255, 238, 0),orange,rgb(255, 149, 0));
 	font-size: 3rem;
+	color:white;
 	text-align: center;
 	text-shadow: 2px 2px 5px black;
 	/* padding: 2rem; */
