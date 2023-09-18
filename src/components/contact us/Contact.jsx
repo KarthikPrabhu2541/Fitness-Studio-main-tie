@@ -40,8 +40,8 @@ const Contact = () => {
 					<h1>Our Contact</h1>
 					<h2>
 						<span> Get in touch with us</span><br/>
-						<span>Let us know about any queries or inquiries </span><br/>
-						<span>you might have for us regarding the fitness studio</span>
+						<span>Let us know about any queries </span><br/>
+						<span>you might have for us about the studio</span>
 					</h2>
 	
 					<div className="social">

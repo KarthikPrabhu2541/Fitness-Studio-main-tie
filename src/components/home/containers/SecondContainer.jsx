@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import zumba from "../../../assets/zumba.jpg";
 import Nutrition from "../../../assets/Nutrition.jpg";
 import meditation from "../../../assets/meditation.jpg";
-import pilates from "../../../assets/pilates.jpg";
+import gym from "../../../assets/pilates.jpg";
 import "../home.css";
 import { useNavigate } from "react-router-dom";
 
@@ -70,19 +70,19 @@ const SecondContainer = () => {
  						<p>
 						 Yoga is a meditative process of self-discovery and liberation.
 						</p>
-						<button onClick={handleClick}>Know More...</button>
+						<button onClick={handleClick}>Join</button>
 					</div>
 				</div>
 				<div className="carousel-card">
-					<img src={pilates} alt="pilate-img" />
+					<img src={gym} alt="pilate-img" />
 					<div className="hide">
 						<h3>Gym</h3>
 						<p>
 						A place or club where you can go to exercise using machines, weights, and other equipment.
 						</p>
-						<button onClick={handleClick}>Know More...</button>
+						<button onClick={handleClick}>Join</button>
 					</div>
-</div>
+				</div>
 				<div className="carousel-card">
 					<img src={zumba} alt="zumba-img" />
 					<div className="hide">
@@ -90,7 +90,7 @@ const SecondContainer = () => {
 						<p>
 						Zumba is a fun, high-energy workout experience that keeps you excited to exercise.
  						</p>
-						 <button onClick={handleClick}>Know More...</button>
+						 <button onClick={handleClick}>Join</button>
  					</div>
 				</div>
 				<div className="carousel-card">
@@ -100,7 +100,7 @@ const SecondContainer = () => {
 						<p>
 						Meditation is a practice that involves focusing or clearing your mind using a combination of mental and physical techniques. 
 						</p>			
-						<button onClick={handleClick}>Know More...</button>							
+						<button onClick={handleClick}>Join</button>							
 						</div>
 			</div>
 			<div className="carousel-card">

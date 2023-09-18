@@ -9,11 +9,8 @@ const Home = () => {
 	return (
 		<div className="home-container">
 			<FirstContainer />
-			<hr id="horizontal"></hr>
 			<SecondContainer />
-			<hr id="horizontal"></hr>
 			<ThirdContainer />
-			<hr id="horizontal"></hr>
 			<FifthContainer />
 		</div>
 	);

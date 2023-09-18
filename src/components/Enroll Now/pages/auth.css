@@ -14,18 +14,29 @@
 }
 
 .imgLogo:hover{
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
 }
 
 #bgphoto{
     background-image: url("../../../assets/bck.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    opacity:0.95;
     
 }
 #coloring{
-    color:orangered;
-    background-color: white;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 5px orangered, 0 0 5px orangered;
+    font-size:40px;
+}
+
+#login-register-button{
+    border:1px solid rgb(25, 95, 246);
+}
+
+#login-register-button:hover{
+    border:1px solid rgb(16, 169, 16);
+    color:white;
 }
 /* Loading css Part */

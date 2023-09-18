@@ -1,5 +1,6 @@
 .home-container {
 	padding-bottom: 20px;
+	
 }
 #horizontal{
 	background-color:rgb(255, 187, 0);
@@ -90,19 +91,18 @@
 	background-color: rgb(171, 171, 189);
 	transform: scale(1.06);
 }
-
 #home_second_container {
 	padding: 2rem 3rem;
 	color: rgb(26, 24, 24);
-	background-color:black;
+	background: orange;
 }
 
 #home_second_container h1 {
-	background:	linear-gradient(to right, rgb(255, 238, 0),orange,rgb(255, 149, 0));
+	color: rgb(245, 242, 242);
 	font-size: 3rem;
-	color:white;
 	text-align: center;
 	text-shadow: 2px 2px 5px black;
+	font-family: 'Quicksan',sans-serif;
 	/* padding: 2rem; */
 }
 #home_second_container .carousel-card {
@@ -142,18 +142,21 @@
 	color: rgb(8, 9, 15);
 }
 .carousel-card:hover .hide h3{
-	font-size: large;
+	font-size: 30px;
 	font-weight: 600;
 	padding: 5px;
+	color:rgb(255, 111, 0);
+	text-shadow: 0 0 1px #000000, 0 0 1px #000000;
 }
 .carousel-card:hover .hide button {
-	background-color: rgb(101, 78, 229);
+	background-color: rgb(236, 126, 8);
 	color: white;
 	padding: 5px;
 	border-radius: 5px;
-	font-size: small;
+	font-size: large;
 	/* box-shadow: 2px 2px 5px black; */
 }
+
 #home_third_container {
 	min-height: 100vh;
 	padding: 1rem;
@@ -193,14 +196,15 @@
 	transform: scale(1.1);
 }
 #home_third_container .trainer_details img {
-	width: 50%;
-	height: 90%;
+	width: 35%;
+	height: 80%;
 	display: block;
 	border-radius: 15px;
 	animation: floatTrainer 4s ease-in-out infinite;
 	box-shadow: white;
 	-webkit-box-reflect: below 1px linear-gradient(transparent);
-	
+	min-width:300px;
+	min-height:400px;
 }
 @keyframes floatTrainer {
 	0% {
@@ -292,15 +296,15 @@
 }
 
 #home_fifth_container {
-	padding: 10px;
+	padding:10px;
 	padding-bottom:40px;
 	margin-bottom:-20px;
 	color: rgb(26, 24, 24);
-	background-color: black;
+	background-color: rgb(239, 163, 10);
 }
 #home_fifth_container h1 {
-	color: orange;
-	font-size: 3rem;
+	color: white;
+	font-size: 2rem;
 	text-align: center;
 	text-shadow: 2px 2px 5px black;
 	padding: 1rem;
@@ -321,8 +325,7 @@
 	transition: transform 0.2s;
 }
 .gallery img:hover {
-	transform: scale(1.05);
-	overflow:hidden;
+	transform: scale(1.15);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -347,13 +350,13 @@
 
 	.trainer_details img {
 		height: auto;
-		width: 80%;
+		width: 50%;
 		max-width: 400px;
 		margin-top: 1rem;
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 750px) {
 	.home_first_container .contents {
 		text-align: center;
 		padding: 1rem 0;
@@ -421,8 +424,8 @@
 		padding: 20px;
 	}
 	#home_second_container .carousel-card img {
-		width: 100%;
-
+		width: 90%;
+		margin:auto auto;
 		display: block;
 		border-radius: 15px;
 	}
@@ -439,7 +442,7 @@
 		height: 80vh;
 	}
 	#home_third_container .trainer_details img {
-		width: 40%;
+		width: 30%;
 		height: 60%;
 		display: block;
 		border-radius: 15px;
@@ -449,4 +452,58 @@
 		font-size: 1rem;
 		margin-bottom: 1rem;
 	}
+}
+
+.image-text-div{
+	position:relative;
+}
+.image-trainers{
+	display:block;
+	width:100%;
+}
+.text-overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	padding:10px;
+	color:white;
+	font-size:18px;
+	display:grid;
+	grid-template-columns: 83% 17%;
+	text-shadow:1px 1px 2px rgb(218, 128, 32);
+	background-color: rgba(0,0,0,0.6);
+	font-family: 'Quicksan',sans-serif;
+	border-radius:10px;
+	opacity:0;
+	align-items:end;
+	transition:opacity 0.25s;
+}
+
+.text-overlay > *{
+	transform:translateY(20px);
+	transition:transform 0.25s;
+}
+.text-overlay:hover > *{
+	transform:translateY(0);
+}
+.text-overlay:hover{
+	opacity:1;
+}
+.image-title{
+	font-size:20px;
+}
+#image-desc{
+	float:right;
+	align-items:start;
+}
+
+.trainers-info-heading{
+	color: rgb(245, 242, 242);
+	font-size: 3rem;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+	font-family: 'Quicksan',sans-serif;
+	margin-bottom:20px;
 }

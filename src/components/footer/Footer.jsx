@@ -12,7 +12,7 @@ const Footer = () => {
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
 					<div className="social">
-						<a href="https://www.facebook.com">
+						<a href="https://ww.facebook.com">
 							<FaFacebook />
 						</a>
 						<a href="https://www.twitter.com">

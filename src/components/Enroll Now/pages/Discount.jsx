@@ -214,7 +214,7 @@ const Discount = () => {
 
                             className='inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 cursor-pointer  '
                             // onClick={handlePayment}
-                            onClick={() => displayRazorpay(selectedPlan)}
+                            //onClick={() => displayRazorpay(selectedPlan)}
 
                             disabled={!selectedPlan}>
                             Make Payment

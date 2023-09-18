@@ -31,41 +31,6 @@ footer {
 
 
 
-.footer_container .about .social {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-	margin-bottom: 20px;
-}
-
-.footer_container .about .social a {
-	color: #ffffff;
-	font-size: 1.3rem;
-	transition: transform 0.3s ease, color 0.3s ease;
-	position: relative;
-}
-
-.footer_container .about .social a:before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	background-color: #ffffff;
-	bottom: -6px;
-	transform: scaleX(0);
-	transform-origin: center;
-	transition: transform 0.3s ease;
-}
-
-.footer_container .about .social a:hover {
-	transform: translateY(-3px);
-	color: rgb(230, 130, 8);
-}
-
-.footer_container .about .social a:hover:before {
-	transform: scaleX(1);
-}
 .quicklinks ul,
 .contact ul {
 	list-style: none;
@@ -164,4 +129,39 @@ footer {
 	.map {
 		height: 150px;
 	}
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin: 20px;
+}
+
+.social a {
+	color: rgb(244, 168, 6)enrod;
+	font-size: 1.5rem;
+	transition: transform 0.3s ease, color 0.3s ease;
+	position: relative;
+}
+
+.social a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: -6px;
+	transform: scaleX(0);
+	transform-origin: center;
+	transition: transform 0.3s ease;
+}
+
+.social a:hover {
+	transform: translateY(-3px);
+	color: white;
+}
+
+.social a:hover:before {
+	transform: scaleX(1);
 }

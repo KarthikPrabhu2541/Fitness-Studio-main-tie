@@ -154,7 +154,7 @@ const Register = () => {
                         </div>
                         <button
                             className='w-full px-4 py-2 text-lg text-white bg-blue-500 rounded-md hover:bg-green-600'
-                            type='submit'>
+                            type='submit' id='login-register-button'>
                             Register
                         </button>
                     </form>

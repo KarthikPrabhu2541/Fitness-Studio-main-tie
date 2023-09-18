@@ -60,7 +60,7 @@ const Login = () => {
         <div className='flex flex-col md:flex-row h-screen '>
             <div className='bg-white md:w-1/2 flex justify-center items-center' id='bgphoto'>
                 <div className='w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2'>
-                    <h1 className='text-2xl font-bold mb-8  text-center'id='coloring'>
+                    <h1 className='text-2xl font-bold mb-8  text-center' id='coloring'>
                         New Here ?
                     </h1>
                    
@@ -123,7 +123,7 @@ const Login = () => {
                         </div>
                         <button
                             className='w-full px-4 py-2 text-lg text-white bg-blue-500 rounded-md hover:bg-green-600'
-                            type='submit'>
+                            type='submit' id='login-register-button'>
                             Login
                         </button>
                     </form>
