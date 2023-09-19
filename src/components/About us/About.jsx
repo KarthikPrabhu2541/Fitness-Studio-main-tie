@@ -39,12 +39,12 @@ const About = () => {
           description="Meditation, a timeless practice with roots in ancient traditions such as Buddhism, Hinduism, and Taoism, is a technique that cultivates mindfulness, self-awareness, and inner tranquility. "
           link="/services/meditation/Meditation"
         />
-        <ServiceCard
+        {/* <ServiceCard
           image="https://media4.giphy.com/media/4bjIKBOWUnVPICCzJc/giphy.gif?cid=6c09b952dxg7560f7rwlfpowfjg4pe8cl0uybn8mh3xejz90&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
           title="NUTRITION"
           description="Nutrition, the fundamental aspect of human well-being, revolves around the intake of nutrients from food and its impact on our health. It plays a vital role in maintaining bodily functions, supporting growth, and preventing various diseases. "
           link="/services/nutrition/Nutrition"
-        />
+        /> */}
         {/* <ServiceCard
           image="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm1ncDQzZXpmb2xiNHZueDA3ZGoyem85MW13Y3d6b3lpMnF4aXY2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GZbgYa0mVQoBKrnuYT/giphy.gif"
           title="ENROLL NOW"

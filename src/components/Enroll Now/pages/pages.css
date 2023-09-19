@@ -99,7 +99,7 @@ textarea{
     font-size: 18px;
     font-weight: 500;
     color: #348b29;
-    border: 2px solid rgb(207, 24, 24);
+    border: 2px solid rgb(244, 115, 10);
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
@@ -108,13 +108,13 @@ textarea{
 .priceDES{
     font-size: 25px;
     font-weight: 700;
-    color: blue;
+    color: rgb(255, 145, 0);
 }
 
 .discountDES{
     font-size: 25px;
     font-weight: 700;
-    color: red
+    color: rgb(255, 111, 0)
 }
 
 .totalDES{
@@ -125,6 +125,30 @@ textarea{
 }
 
 
-  
 
+#classes-btn-flex > button{
+  display:flex;
+  background-color: rgb(241, 122, 17);
+}
 
+#classes-btn-flex > button{
+  border:none;
+}
+
+#submit{
+  background-color: orange;
+}
+
+#submit:hover{
+  border:none;
+  background-color: green;
+}
+
+#logout{
+  background-color: orange;
+}
+
+#logout:hover{
+  border:none;
+  background-color: red;
+}

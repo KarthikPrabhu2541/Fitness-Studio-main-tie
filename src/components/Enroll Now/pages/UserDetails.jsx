@@ -286,6 +286,7 @@ const UserDetails = () => {
 							className="inline-flex items-center  px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-center text-white bg-indigo-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 cursor-pointer"
 							onClick={handleSubmit}
 							disabled={!acceptedTerms}
+							id="submit"
 						>
 							Submit
 						</button>
@@ -295,6 +296,7 @@ const UserDetails = () => {
 						<button
 							className="inline-flex items-center  px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-center text-white bg-indigo-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 cursor-pointer"
 							onClick={handleLogout}
+							id="logout"
 						>
 							Logout
 						</button>

@@ -35,7 +35,7 @@ const Classes = () => {
             </div>
             <div className="single-content">
               <h3>
-                <a href="class.html">yoga for climbers</a>
+                <a href="class.html">YOGA</a>
               </h3>
               <ul>
                 <li>
@@ -64,7 +64,7 @@ const Classes = () => {
             </div>
             <div className="single-content">
               <h3>
-                <a href="class.html">yoga for climbers</a>
+                <a href="class.html">GYM</a>
               </h3>
               <ul>
                 <li>
@@ -93,7 +93,7 @@ const Classes = () => {
             </div>
             <div className="single-content">
               <h3>
-                <a href="class.html">yoga for climbers</a>
+                <a href="class.html">ZUMBA</a>
               </h3>
               <ul>
                 <li>
@@ -122,7 +122,7 @@ const Classes = () => {
             </div>
             <div className="single-content">
               <h3>
-                <a href="class.html">yoga for climbers</a>
+                <a href="class.html">MEDITATION</a>
               </h3>
               <ul>
                 <li>
@@ -155,11 +155,9 @@ const Classes = () => {
       <div className="row">
         <div className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-12">
           <div className="section-title">
-            <h2>class schedule</h2>
+            <h2>Calendar Sync</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum issss has been the industry's standard dummy
-              text ever since the 1500s, when an unknown lorem{" "}
+              Calendar for a week that displays each class along with its timings
             </p>
           </div>
         </div>
@@ -289,9 +287,7 @@ const Classes = () => {
           <div className="section-title text-center">
             <h2>pricing table</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum issss has been the industry's standard dummy
-              text ever since the 1500s, when an unknown lorem{" "}
+              All the Pricing categories of silver, gold and platinum
             </p>
           </div>
         </div>
@@ -302,15 +298,16 @@ const Classes = () => {
             <div className="table-head">
               <h2>silver package</h2>
               <h1>
-                $30<span>/month</span>
+              ₹700<span>/month</span>
               </h1>
             </div>
             <div className="table-body">
               <ul>
                 <li>Free T-Shirt &amp; swags</li>
                 <li>Free of all message treatments</li>
-                <li>Access Clup Facilites</li>
-                <li>Out Door activites</li>
+                <li><s>Out Door activites</s></li>
+                <li><s>Access Club Facilites</s></li>
+                
               </ul>
               <a href="#" id="get-started">get started</a>
             </div>
@@ -321,15 +318,15 @@ const Classes = () => {
             <div className="table-head">
               <h2>gold package</h2>
               <h1>
-                $50<span>/month</span>
+              ₹900<span>/month</span>
               </h1>
             </div>
             <div className="table-body">
               <ul>
                 <li>Free T-Shirt &amp; swags</li>
                 <li>Free of all message treatments</li>
-                <li>Access Clup Facilites</li>
                 <li>Out Door activites</li>
+                <li><s>Access Club Facilites</s></li>
               </ul>
               <a href="#" id="get-started">get started</a>
             </div>
@@ -340,15 +337,16 @@ const Classes = () => {
             <div className="table-head">
               <h2>platinum package</h2>
               <h1>
-                $70<span>/month</span>
+              ₹1000<span>/month</span>
               </h1>
             </div>
             <div className="table-body">
               <ul>
                 <li>Free T-Shirt &amp; swags</li>
                 <li>Free of all message treatments</li>
-                <li>Access Clup Facilites</li>
+                
                 <li>Out Door activites</li>
+                <li>Access Clup Facilites</li>
               </ul>
               <a href="#" id="get-started">get started</a>
             </div>

@@ -61,7 +61,7 @@ const SecondContainer = () => {
 			id="home_second_container"
 			className={isVisible ? "visible" : ""}
 		>
-			<h1>Classes offered</h1>
+			<h1 className="classses-offered">Classes offered</h1>
 			<Slider {...carouselSettings}>
 			<div className="carousel-card">
 					<img src={yoga} alt="yoga-img" />

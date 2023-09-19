@@ -94,7 +94,7 @@
 #home_second_container {
 	padding: 2rem 3rem;
 	color: rgb(26, 24, 24);
-	background: orange;
+	background: black;
 }
 
 #home_second_container h1 {
@@ -103,6 +103,7 @@
 	text-align: center;
 	text-shadow: 2px 2px 5px black;
 	font-family: 'Quicksan',sans-serif;
+	
 	/* padding: 2rem; */
 }
 #home_second_container .carousel-card {
@@ -300,7 +301,7 @@
 	padding-bottom:40px;
 	margin-bottom:-20px;
 	color: rgb(26, 24, 24);
-	background-color: rgb(239, 163, 10);
+	background-color: rgb(6, 6, 6);
 }
 #home_fifth_container h1 {
 	color: white;
@@ -308,6 +309,7 @@
 	text-align: center;
 	text-shadow: 2px 2px 5px black;
 	padding: 1rem;
+	
 }
 
 #home_fifth_container .gallery {
@@ -471,7 +473,7 @@
 	color:white;
 	font-size:18px;
 	display:grid;
-	grid-template-columns: 83% 17%;
+	grid-template-columns: 70% auto;
 	text-shadow:1px 1px 2px rgb(218, 128, 32);
 	background-color: rgba(0,0,0,0.6);
 	font-family: 'Quicksan',sans-serif;
@@ -493,10 +495,12 @@
 }
 .image-title{
 	font-size:20px;
+	width:80%;
 }
 #image-desc{
 	float:right;
-	align-items:start;
+	
+
 }
 
 .trainers-info-heading{
@@ -506,4 +510,38 @@
 	text-shadow: 2px 2px 5px black;
 	font-family: 'Quicksan',sans-serif;
 	margin-bottom:20px;
+	background: linear-gradient(to right, rgb(255, 234, 0), orange,rgb(255, 89, 0));
 }
+
+.classses-offered{
+	background: linear-gradient(to right, rgb(255, 234, 0), orange,rgb(255, 89, 0));
+}
+
+.btn {
+	border: none;
+	outline: none;
+	padding: 10px 16px;
+	background-color: rgba(240, 161, 14, 0.781);
+	cursor: pointer;
+	font-size: 18px;
+  }
+  .btn:hover{
+	background-color: rgba(240, 161, 14, 0.966);
+	border:none;
+  }
+  /* Style the active class, and buttons on mouse-over */
+  .active {
+	background:green;
+	color: white;
+  }
+
+  .active:hover{
+	background:green;
+	border:none;
+  }
+
+  #classes-select{
+	display:flex;
+	justify-content: space-around;
+	margin-bottom:20px;
+  }

@@ -7,7 +7,6 @@ import { auth } from '../../../firebase';
 
 const pricingPlans = [
     { duration: "1 Month", price: 2000, discount: 5 },
-
     { duration: "3 Months", price: 4000, discount: 10 },
     { duration: "6 Months", price: 6000, discount: 20 },
     { duration: "1 Year", price: 9000, discount: 30 },
@@ -85,8 +84,18 @@ const Discount = () => {
 
     return (
         // this is heading
+        
         <div className='bg-gray-100 min-h-screen flex justify-center items-center '>
             <div className='bg-white shadow-lg rounded-lg p-8'>
+            <h2 className='text-4xl text-slate-500 text-center font-bold mb-6 gymHeading'>
+                    Choose the class you would like to attend
+                </h2>
+                <div id="classes-select">
+    <button class="btn active">Yoga</button>
+  <button class="btn">Meditation</button>
+  <button class="btn">Gym</button>
+  <button class="btn">Zumba</button>
+</div>
                 <h2 className='text-4xl text-slate-500 text-center font-bold mb-6 gymHeading'>
                     Choose Your Pricing Plan
                 </h2>
@@ -235,7 +244,19 @@ const Discount = () => {
                 </div>
             </div>
         </div>
+        
+        // Add active class to the current button (highlight it)
+        
+        
     );
 };
-
+const header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
 export default Discount;
