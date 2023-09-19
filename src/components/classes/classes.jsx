@@ -15,9 +15,7 @@ const Classes = () => {
           <div className="section-title text-center">
             <h2>our classes</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum issss has been the industry's standard dummy
-              text ever since the 1500s, when an unknown lorem{" "}
+              These are all the classes that we are providing with each coach and timing details{" "}
             </p>
           </div>
         </div>
@@ -110,7 +108,37 @@ const Classes = () => {
             </div>
           </div>
         </div>
+        <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="single-class">
+            <div className="single-img">
+              <a href="class.html">
+                <img src={gym} alt="class" />
+              </a>
+              <div className="gallery-icon">
+                <a className="image-popup" href={gym}>
+                  <i className="zmdi zmdi-zoom-in" />
+                </a>
+              </div>
+            </div>
+            <div className="single-content">
+              <h3>
+                <a href="class.html">yoga for climbers</a>
+              </h3>
+              <ul>
+                <li>
+                  <i className="zmdi zmdi-face" />
+                  Sathi Bhuiyan
+                </li>
+                <li>
+                  <i className="zmdi zmdi-alarm" />
+                  10.00Am-05:00Pm
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
+      
       <div className="row">
         <button className="view-all-classes-button">
           <a className="banner-btn mt-55" href="#" data-text="view all classes">

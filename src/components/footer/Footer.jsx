@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className="footer_container">
 				<div className="about">
 					<img src={logo}  alt="logo"/>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p>A Fitness Studio Mern Stack Web Application for class registration with calendar schedule </p>
 
 					<div className="social">
 						<a href="https://ww.facebook.com">

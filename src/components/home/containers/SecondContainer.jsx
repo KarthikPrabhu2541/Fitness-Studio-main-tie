@@ -103,17 +103,7 @@ const SecondContainer = () => {
 						<button onClick={handleClick}>Join</button>							
 						</div>
 			</div>
-			<div className="carousel-card">
-					<img src={Nutrition} alt="nutrition-img" />
-				<div className="hide">
-						<h3>Nutrition</h3>
-						<p>
-						Nutrition is the process of providing or obtaining the food necessary for health and growth. 
-						
-</p>
-<button onClick={handleClick}>Know More...</button>
-				</div>
-			</div>
+			
 			</Slider>
 		</section>
 	);
