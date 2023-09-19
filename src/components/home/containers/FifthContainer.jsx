@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { gallery } from "../ClientGallery";
 import "../home.css";
-const mylist = ['Ayushi Tandon','Aaron A','Shweta Kakkad','Keval Krishna'];
+const mylist = ['Ayushi Tandon','Aaron A','Shweta Kakkad','Sasha H'];
 const ages = ['28','36','31','35']
 const classes = ['Yoga','Gym','Zumba','Meditation']
 

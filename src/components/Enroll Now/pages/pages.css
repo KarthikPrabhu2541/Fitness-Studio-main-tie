@@ -124,7 +124,11 @@ textarea{
     text-align: center;
 }
 
-
+.radio-class{
+  transform: scale(0.5);
+  position: relative;
+  top:20px;
+}
 
 #classes-btn-flex > button{
   display:flex;

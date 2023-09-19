@@ -91,10 +91,12 @@ const Discount = () => {
                     Choose the class you would like to attend
                 </h2>
                 <div id="classes-select">
-    <button class="btn active">Yoga</button>
-  <button class="btn">Meditation</button>
-  <button class="btn">Gym</button>
-  <button class="btn">Zumba</button>
+                <input type="radio" name="fav_language" defaultValue="HTML" className="radio-class" id="radio" de/>
+                <button className="btn" mode="contained" color="green" >  Yoga</button>
+                <input type="radio" name="fav_language" defaultValue="HTML"className="radio-class" id="radio"/>
+                    <button className="btn" mode="contained" color="red">Gym</button>
+                <input type="radio" name="fav_language" defaultValue="HTML" className="radio-class" id="radio"/><button className="btn" mode="contained" color="green" >Meditation</button>
+                <input type="radio" name="fav_language" defaultValue="HTML" className="radio-class" id="radio"/><button className="btn" mode="contained" color="red" >Zumba</button>
 </div>
                 <h2 className='text-4xl text-slate-500 text-center font-bold mb-6 gymHeading'>
                     Choose Your Pricing Plan
@@ -250,13 +252,8 @@ const Discount = () => {
         
     );
 };
-const header = document.getElementById("myDIV");
-        var btns = header.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function() {
-          var current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-          });
-        }
+
+
+
+
 export default Discount;
