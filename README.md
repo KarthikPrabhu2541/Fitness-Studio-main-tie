@@ -1,5 +1,12 @@
 A Fitness Studio Project that was developed and deployed by the team BMSIT Quick-Learners team for the Full Stack Web Development with Mern Stack Internship with Varconns 
 
+![image](https://github.com/KarthikPrabhu2541/Fitness-Studio-main-tie/assets/91746517/86f530bb-7f8d-463f-8882-6417713e02bf)
+
+![image](https://github.com/KarthikPrabhu2541/Fitness-Studio-main-tie/assets/91746517/35d2cf29-e99b-4eb4-9588-ea1d0220e6b1)
+
+![WhatsApp Image 2023-09-20 at 19 41 50](https://github.com/KarthikPrabhu2541/Fitness-Studio-main-tie/assets/91746517/4e3ee225-5c66-446c-89eb-d8bb76eeda8e)
+
+
 Collaborators 
 
      Karthik Prabhu
