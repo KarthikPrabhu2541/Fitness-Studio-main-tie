@@ -6,7 +6,7 @@ Instructions to Run and deploy the react web application
 
 ### 2. Use a suitable IDE like VSCode or the command prompt 
 
-### 3. using npm download the node modules using the command
+### 3. Using npm, download the node modules using the command
 ### `npm i react-scripts`
 
 ### 4. You can Run the React Application on localhost using the following command 
