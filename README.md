@@ -1,9 +1,12 @@
 A Fitness Studio Project that was developed and deployed by the team BMSIT Quick-Learners team for the Full Stack Web Development with Mern Stack Internship with Varconns 
 
 Collaborators 
-Karthik Prabhu
-Lakshmi Narayana
-Prajwal Naveen
+
+     Karthik Prabhu
+
+     Lakshmi Narayana
+
+     Prajwal Naveen
 
 Instructions to Run and deploy the react web application
 
@@ -12,10 +15,10 @@ Instructions to Run and deploy the react web application
 ### 2. Use a suitable IDE like VSCode or the command prompt 
 
 ### 3. Using npm, download the node modules using the command
-### `npm i react-scripts`
+     ### `npm i react-scripts`
 
 ### 4. You can Run the React Application on localhost using the following command 
-### `npm start`
+     ### `npm start`
 
 
 # Getting Started with Create React App
