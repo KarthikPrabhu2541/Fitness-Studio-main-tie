@@ -8,7 +8,7 @@ Collaborators
 
      Prajwal Naveen
 
-#Instructions to Run and deploy the react web application
+# Instructions to Run and deploy the react web application
 
 ### 1. Clone the current Github Repository into local System
 
