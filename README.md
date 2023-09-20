@@ -2,14 +2,14 @@ A Fitness Studio Project that was developed and deployed by the team BMSIT Quick
 
 Instructions to Run and deploy the react web application
 
-# 1. Clone the current Github Repository into local System
+## 1. Clone the current Github Repository into local System
 
-# 2. Use a suitable IDE like VSCode or the command prompt 
+## 2. Use a suitable IDE like VSCode or the command prompt 
 
-# 3. using npm download the node modules using the command
+## 3. using npm download the node modules using the command
 ### `npm i react-scripts`
 
-# 4. You can Run the React Application on localhost using the following command 
+## 4. You can Run the React Application on localhost using the following command 
 ### `npm start`
 
 
