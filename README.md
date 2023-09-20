@@ -1,5 +1,10 @@
 A Fitness Studio Project that was developed and deployed by the team BMSIT Quick-Learners team for the Full Stack Web Development with Mern Stack Internship with Varconns 
 
+Collaborators 
+Karthik Prabhu
+Lakshmi Narayana
+Prajwal Naveen
+
 Instructions to Run and deploy the react web application
 
 ### 1. Clone the current Github Repository into local System
