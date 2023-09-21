@@ -9,11 +9,11 @@ A Fitness Studio Project that was developed and deployed by the team BMSIT Quick
 
 Collaborators 
 
-     Karthik Prabhu
+     Karthik Prabhu - Landing, classes and discount pages
 
-     Lakshmi Narayana
+     Lakshmi Narayana - enroll now and subsequent pages
 
-     Prajwal Naveen
+     Prajwal Naveen - about us , user registration and contact pages
 
 ### It has been deployed on Github Pages 
 
