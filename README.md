@@ -23,7 +23,19 @@ Collaborators
 - It can be visited by clicking on details and then visit unsafe site.
 - DO Not Refresh as 404.html hasnt been added yet to configure the refresh back to same page and not to 404 error page.
 - There might be some errors like google account login or such so it is advised to run the Web App on localhost.
-     
+
+### Features
+
+- Classes registration
+
+- user registration and login
+
+- gym registration
+
+- calendar sync 
+
+- pricing and payments option
+
 # Instructions to Run the react web application
 
 
