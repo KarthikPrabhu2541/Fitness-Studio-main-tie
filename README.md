@@ -15,7 +15,18 @@ Collaborators
 
      Prajwal Naveen
 
-# Instructions to Run and deploy the react web application
+### It has been deployed on Github Pages 
+
+     https://karthikprabhu2541.github.io/Fitness-Studio-main-tie/
+
+- It might show dangerous due to being tagged as such due to some links but rest assured there are no threats.
+- It can be visited by clicking on details and then visit unsafe site.
+- DO Not Refresh as 404.html hasnt been added yet to configure the refresh back to same page and not to 404 error page.
+- There might be some errors like google account login or such so it is advised to run the Web App on localhost.
+     
+# Instructions to Run the react web application
+
+
 
 ### 1. Clone the current Github Repository into local System
 
