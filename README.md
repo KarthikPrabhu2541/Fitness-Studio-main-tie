@@ -27,7 +27,6 @@ Collaborators
 # Instructions to Run the react web application
 
 
-
 ### 1. Clone the current Github Repository into local System
 
 ### 2. Use a suitable IDE like VSCode or the command prompt 
@@ -38,6 +37,7 @@ Collaborators
 ### 4. You can Run the React Application on localhost using the following command 
      ### `npm start`
 
+#### To enable payments , go to src/components/enrolnow/pages/discount.jsx, remove the comment on the onclick command line and paste your razorpay account link for the popup after clicking on payments.
 
 # Getting Started with Create React App
 
